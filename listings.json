@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_01_publication_name/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/viallon-vivian/index.html",
+      "/people/chadeau-marc/index.html",
+      "/people/colindres-ruben/index.html",
+      "/people/muller-david/index.html",
+      "/people/smith-byrne-karl/index.html",
+      "/people/chiquet-julien/index.html",
+      "/people/francheterre-blanche/index.html"
+    ]
+  }
+]
