@@ -1,0 +1,33 @@
+---
+title: &TITLE David C Muller
+last: Muller
+first: David
+people_group: "imperial"
+email: "david.muller@imperial.ac.uk"
+subtitle: "Senior Lecturer in Cancer Epidemiology and Biostatistics"
+description: "[https://profiles.imperial.ac.uk/david.muller](https://profiles.imperial.ac.uk/david.muller)"
+affiliation: School of Public Health - Faculty of Medicine
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: david.muller@imperial.ac.uk
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?hl=en&user=
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

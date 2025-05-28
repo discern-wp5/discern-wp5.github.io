@@ -1,0 +1,30 @@
+---
+title: &TITLE Ruben Colindres
+last: Colindres
+first: Ruben
+people_group: "imperial"
+email: "ruben.colindres-zuehlke17@imperial.ac.uk"
+subtitle: "PhD Student"
+description: "Investigating Heterogeneous Disease Aetiologies: A High-dimensional Exposomic Mediation Analysis of Cardiovascular Disease Risk via Stability Selection Penalised Regression Models in a Structural Causal Framework"
+affiliation: School of Public Health - Faculty of Medicine
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: ruben.colindres-zuehlke17@imperial.ac.uk
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

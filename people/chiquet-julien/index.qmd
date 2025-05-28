@@ -1,0 +1,36 @@
+---
+title: &TITLE Julien Chiquet
+last: Chiquet
+first: Julien
+people_group: "saclay"
+email: "julien.chiquet@inrae.fr"
+subtitle: "Senior Researcher in Statistical Learning"
+description: "[https://jchiquet.github.io](https://jchiquet.github.io)"
+affiliation: Université Paris-Saclay, INRAE, AgroParisTech
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: julien.chiquet@inrae.fr
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?hl=en&user=FM2gRsYAAAAJ
+    - icon: github
+      text: GitHub 
+      href: https://github.com/jchiquet
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

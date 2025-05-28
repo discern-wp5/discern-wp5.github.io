@@ -1,0 +1,33 @@
+---
+title: &TITLE Marc Chadeau
+last: Chadeau
+first: Marc
+people_group: "imperial"
+email: "m.chadeau@imperial.ac.uk"
+subtitle: "Professor of Computational Epidemiology and Biostatistics"
+description: "[https://profiles.imperial.ac.uk/m.chadeau](https://profiles.imperial.ac.uk/m.chadeau)"
+affiliation: School of Public Health - Faculty of Medicine
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: m.chadeau@imperial.ac.uk
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?hl=en&user=bkSYXgsAAAAJ
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

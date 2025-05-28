@@ -1,0 +1,15 @@
+---
+title: "Publication Title"
+author: ["Name 1", "Name 2"]
+categories: 
+    - "multivariate statistics"
+    - "multi-omics"
+url_source: ""
+url_preprint: ""
+journ: "Journal name"
+issue: "xx"
+page: "xxx-xxx"
+year: 2025
+pub_number: 01
+image: "featured.jpg"
+---

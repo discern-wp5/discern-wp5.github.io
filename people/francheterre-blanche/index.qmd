@@ -1,0 +1,33 @@
+---
+title: &TITLE Blanche Francheterre
+last: Francheterre
+first: Blanche
+people_group: "saclay"
+email: "blanche.francheterre@inrae.fr"
+subtitle: "PhD Student"
+description: 'Blanche’s thesis deals with variable selection and dimension reduction methods for pan cancer data with multiple outcomes and observed through multiple omics, including exposome data. It is supported by the H2020 project DISCERN and supervised by Marc Chadeau-Hyam and Julien Chiquet.'
+affiliation: Université Paris-Saclay, INRAE, AgroParisTech
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: blanche.francheterre@inrae.fr
+    - icon: github
+      text: GitHub 
+      href: https://github.com/BlancheFrancheterre
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

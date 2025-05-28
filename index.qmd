@@ -1,0 +1,24 @@
+---
+title: '<img src="images/logo-discern.jpg" width="150"/> WP 5'
+---
+
+Discovering the Causes of Three Poorly Understood Cancers in Europe (DISCERN) is a five-year project of the European Commission Cancer Mission to understand the causes of renal, pancreatic, and colorectal cancer in Europe and to help explain the geographical distribution of these cancer types, including their high incidence in central and eastern Europe.
+
+The DISCERN project comprises a European multinational consortium of 20 institutions under the coordination of IARC. The project started in January 2023 and is funded by a grant from the European Commission in the framework of the Horizon Europe Mission on Cancer.
+
+
+## Discern Work Plan
+
+The work plan of DISCERN is divided into eight Work Packages (WPs), which are described below.
+
+![](images/work-packages-infographics.png)
+
+## Work Package 5
+
+We, partners and researchers involved in package 5 of DISCERN, aim to:
+
+1. Ensure that methods used and developed within DISCERN are readily implemented and scalable.
+2. Develop novel approaches to integrate multiple omics data and exposome profiles and identify candidate molecular, environmental, and lifestyle determinants of cancer risk.
+3. Develop actionable cancer predictive models to evaluate the utility of identified markers.
+4. Develop novel approaches to map identified markers of cancer risk to biological pathways using genetic machine learning and causal inference methods.
+

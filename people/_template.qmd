@@ -1,0 +1,39 @@
+---
+title: &TITLE Name
+last: 
+first: 
+people_group: "saclay | imperial | iarc"
+email: 
+subtitle: "Postdoctoral Fellow | Graduate Student, dept "
+description: ""
+image: avatar.jpg
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:email@example.org
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

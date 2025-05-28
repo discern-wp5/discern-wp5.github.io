@@ -1,0 +1,33 @@
+---
+title: &TITLE Vivian Viallon
+last: Viallon
+first: Vivian
+people_group: "iarc"
+email: "viallonv@iarc.who.int"
+subtitle: "Senior Researcher in Statistics: Nutrition and Metabolism"
+description: "[https://www.iarc.who.int/staff_member/vivian-viallon/](website)"
+affiliation: Internation Agency for Research on Cancer
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: viallonv@iarc.who.int
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?hl=en&user=DlSho7wAAAAJ
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

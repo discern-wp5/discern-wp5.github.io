@@ -1,0 +1,33 @@
+---
+title: &TITLE Karl Smith-Byrne
+last: Smith-Byrne
+first: Karl 
+people_group: "oxford"
+email: "karl.smith-byrne@ndph.ox.ac.uk"
+subtitle: "Senior Molecular Epidemiologist"
+description: "[https://www.ndph.ox.ac.uk/team/karl-smith-byrne](https://www.ndph.ox.ac.uk/team/karl-smith-byrne)"
+affiliation: University of Oxford
+image: avatar.png
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: karl.smith-byrne@ndph.ox.ac.uk
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?hl=en&user=7f1YjGgAAAAJ
+---
+
+<hr>
+
+
+:::{#about}
+
+Blabla
+
+:::

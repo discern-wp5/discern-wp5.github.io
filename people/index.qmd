@@ -1,0 +1,64 @@
+---
+title: "People involved"
+listing:
+  - id: partner-iarc
+    include: 
+      people_group: "iarc"
+    exclude:
+      external: true
+    template: ../_ejs/partner-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image]
+  - id: partner-imperial
+    include: 
+      people_group: "imperial"
+    exclude:
+      external: true
+    template: ../_ejs/partner-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image]
+  - id: partner-oxford
+    include: 
+      people_group: "oxford"
+    exclude:
+      external: true
+    template: ../_ejs/partner-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image]
+  - id: partner-saclay
+    include: 
+      people_group: "saclay"
+    exclude:
+      external: true
+    template: ../_ejs/partner-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image]
+page-layout: full
+---
+
+## Partners
+
+### IARC
+
+::: {#partner-iarc}
+:::
+
+### Imperial college
+
+::: {#partner-imperial}
+:::
+
+### Oxford
+
+::: {#partner-oxford}
+:::
+
+### Paris-Saclay / INRAE
+
+::: {#partner-saclay}
+:::
+

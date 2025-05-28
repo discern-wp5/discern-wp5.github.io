@@ -1,0 +1,44 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!people/_template/"
+
+website:
+  title: "DISCERN Workpackage 5 website"
+  site-url: "https://discern-wp5.github.io/"
+  repo-url: "https://github.com/discern-wp5/discern-wp5.github.io"
+  page-navigation: false
+  search: true
+  
+  navbar:
+    search: true
+    title: false
+    background: "#1e7fb8"
+    left:
+      - icon: house
+        href: index.qmd
+        text: " "
+      - href: people/index.qmd
+        text: People
+      - href: publications/index.qmd
+      - href: codes/index.qmd
+        text: Codes
+    right:
+      - icon: github
+        href: https://github.com/discern-wp5
+
+format:
+  html:
+    theme: 
+      - yeti
+    toc: true
+    toc-depth: 4
+    link-external-newwindow: true
+    date-format: "MMM YYYY"
+    smooth-scroll: true
+    resources:
+      - images
+
+
+
