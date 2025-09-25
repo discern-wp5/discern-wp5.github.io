@@ -22,3 +22,9 @@ We, partners and researchers involved in package 5 of DISCERN, aim to:
 3. Develop actionable cancer predictive models to evaluate the utility of identified markers.
 4. Develop novel approaches to map identified markers of cancer risk to biological pathways using genetic machine learning and causal inference methods.
 
+
+## Slides from the WP5 meeting in Paris May 2025
+
+You can view or download the slides from our meeting in May 2025:
+
+- IARC: [From metabolomics to risk models: pre-processing tools, model evaluation, and federated analysis. (PDF)](slides/Paris_WP5_meeting_May_2025_progress_report_IARC.pdf)
