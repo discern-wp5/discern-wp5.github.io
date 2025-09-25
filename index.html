@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b28573d12b71838951148f334f8cd3ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9b2c7d73097d793926a290059d7d8e95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,6 +79,10 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -126,6 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#discern-work-plan" id="toc-discern-work-plan" class="nav-link active" data-scroll-target="#discern-work-plan">Discern Work Plan</a></li>
   <li><a href="#work-package-5" id="toc-work-package-5" class="nav-link" data-scroll-target="#work-package-5">Work Package 5</a></li>
+  <li><a href="#slides-from-the-wp5-meeting-in-paris-may-2025" id="toc-slides-from-the-wp5-meeting-in-paris-may-2025" class="nav-link" data-scroll-target="#slides-from-the-wp5-meeting-in-paris-may-2025">Slides from the WP5 meeting in Paris May 2025</a></li>
   </ul>
 </nav>
     </div>
@@ -167,6 +173,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Develop actionable cancer predictive models to evaluate the utility of identified markers.</li>
 <li>Develop novel approaches to map identified markers of cancer risk to biological pathways using genetic machine learning and causal inference methods.</li>
 </ol>
+</section>
+<section id="slides-from-the-wp5-meeting-in-paris-may-2025" class="level2">
+<h2 class="anchored" data-anchor-id="slides-from-the-wp5-meeting-in-paris-may-2025">Slides from the WP5 meeting in Paris May 2025</h2>
+<p>You can view or download the slides from our meeting in May 2025:</p>
+<ul>
+<li>IARC: <a href="slides/Paris_WP5_meeting_May_2025_progress_report_IARC.pdf">From metabolomics to risk models: pre-processing tools, model evaluation, and federated analysis. (PDF)</a></li>
+</ul>
 
 
 </section>
@@ -223,13 +236,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
